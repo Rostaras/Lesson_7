@@ -1,0 +1,110 @@
+body {
+  font-family: "Lato";
+  color: #424551;
+}
+.header {
+  margin-bottom: 92px;
+}
+.header__block {
+  max-width: 810px;
+  margin: 0 auto;
+}
+.header__title {
+  font-weight: 900;
+  font-size: 46px;
+  line-height: 130%;
+  color: #1e212c;
+}
+.verstka {
+  max-width: 810px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+.image-content {
+  margin-bottom: 60px;
+}
+.image {
+  max-width: 100%;
+  border-radius: 4px;
+}
+.text__regular {
+  line-height: 160%;
+}
+[class*="__regular"] {
+  margin-bottom: 24px;
+}
+
+.text-content {
+  margin-bottom: 48px;
+}
+.bold {
+  margin-bottom: 24px;
+}
+.bold,
+.bold-two {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 150%;
+  color: #1e212c;
+}
+.bold-two {
+  padding-left: 58px;
+  margin-bottom: 48px;
+}
+.list {
+  margin-bottom: 24px;
+  padding-left: 32px;
+}
+li {
+  margin-bottom: 4px;
+  line-height: 160%;
+}
+.block {
+  background-color: beige;
+  font-family: "Caveat";
+  font-weight: 700;
+  font-size: 40px;
+}
+.block__imege-one {
+  background: url(../img/background_img.jpg) center / contain no-repeat;
+}
+.block__imege-two {
+  background: url(../img/background_img2.jpg) center fixed;
+}
+.block__imege-three {
+  background: url(../img/background_img5.png) center / 100px fixed repeat-y,
+    url(../img/background_img3.jpg) 0 0 / contain repeat-x;
+}
+.block__imege-four {
+  background: url(../img/background_img4.jpg) center / contain repeat-x;
+}
+.block__five {
+  background-image: linear-gradient(
+    100.95deg,
+    rgb(9, 211, 247) 0%,
+    rgb(247, 223, 5) 100%
+  );
+}
+.block__imege-six {
+  background: url(../img/background_img.jpg) 0 50% / 200px no-repeat,
+    url(../img/background_img2.jpg) center / 300px no-repeat,
+    url(../img/background_img3.jpg) 80% / 300px repeat-y fixed;
+}
+[class*="__imege"] {
+  border-radius: 10px;
+  min-height: 300px;
+}
+.button {
+  background-color: fuchsia;
+  padding: 15px;
+  color: black;
+  border-radius: 10px;
+  box-shadow: 0 5px 0 #000;
+  transition: all 0.3s ease 0s;
+  text-transform: uppercase;
+  margin-left: 50%;
+}
+.button:hover {
+  margin-top: 3px;
+  box-shadow: 0 2px 0 #000;
+}
